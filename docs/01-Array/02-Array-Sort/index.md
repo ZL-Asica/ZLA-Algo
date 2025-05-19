@@ -84,6 +84,7 @@ slug: ./
 | 0056          | [Merge Intervals（合并区间）][merge-intervals]           | [Python](./)                                                         | 中等 |
 | 0179          | [Largest Number（最大数）][largest-number]               | [Python](./)                                                         | 中等 |
 | 0384          | [Shuffle an Array（打乱数组）][shuffle-an-array]         | [Python](./)                                                         | 中等 |
+| 3024          | [三角形类型][type-of-triangle]                           | [Python](./Questions/10-Type_of_Triangle.md)                         | 简单 |
 | 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]                          | [Python](./Questions/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
 
 <!-- 冒泡排序题目 -->
@@ -134,4 +135,5 @@ slug: ./
 [sort-an-array]: https://leetcode.com/problems/sort-an-array/
 [sort-colors]: https://leetcode.com/problems/sort-colors/
 [szzdnxd]: https://leetcode.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/
+[type-of-triangle]: https://leetcode.com/problems/type-of-triangle/
 [zui-xiao-de-kge-shu-lcof]: https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/

@@ -6,4 +6,4 @@ export default {
     '**/__tests__',
   ],
   comments: false,
-};
+}

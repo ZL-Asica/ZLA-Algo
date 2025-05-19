@@ -1,44 +1,44 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Layout from '@theme/Layout'
+import clsx from 'clsx'
+import React from 'react'
 
-import styles from './index.module.css';
+import styles from './index.module.css'
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
     <section className={styles.introSection}>
-      <div className='container'>
+      <div className="container">
         <h1 className={styles.siteTitle}>{siteConfig.title}</h1>
         <p className={styles.siteSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className={clsx('button button--primary', styles.readNotesButton)}
-            to='/intro'
+            to="/intro"
           >
             阅读笔记
           </Link>
         </div>
       </div>
     </section>
-  );
+  )
 }
 
 const Home = () => {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
       title={siteConfig.title}
-      description='LeetCode题解和算法思路的总结和笔记'
+      description="LeetCode题解和算法思路的总结和笔记"
     >
       <HomepageHeader />
       <main className={styles.mainContent}>
         {/* Maybe add latest doc here */}
       </main>
     </Layout>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

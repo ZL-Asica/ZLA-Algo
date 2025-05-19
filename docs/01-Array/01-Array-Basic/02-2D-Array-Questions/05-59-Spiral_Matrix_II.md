@@ -27,19 +27,19 @@ Given a positive integer $n$, generate an $n \times n$ $matrix$ filled with elem
 ![Spiral Matrix II - Example 1](/img/problems/59.jpg)
 
 ```javascript
-Input: n = 3;
+Input: n = 3
 Output: [
   [1, 2, 3],
   [8, 9, 4],
   [7, 6, 5],
-];
+]
 ```
 
 **Example 2:**
 
 ```javascript
-Input: n = 1;
-Output: [[1]];
+Input: n = 1
+Output: [[1]]
 ```
 
 **Constraints:**

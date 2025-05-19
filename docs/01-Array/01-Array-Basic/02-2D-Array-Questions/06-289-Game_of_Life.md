@@ -41,13 +41,13 @@ Input: board = [
   [0, 0, 1],
   [1, 1, 1],
   [0, 0, 0],
-];
+]
 Output: [
   [0, 0, 0],
   [1, 0, 1],
   [0, 1, 1],
   [0, 1, 0],
-];
+]
 ```
 
 **Example 2:**
@@ -58,11 +58,11 @@ Output: [
 Input: board = [
   [1, 1],
   [1, 0],
-];
+]
 Output: [
   [1, 1],
   [1, 1],
-];
+]
 ```
 
 **Constraints:**
@@ -110,14 +110,12 @@ class Solution:
                     if col != 0:
                         count += board[row - 1][col - 1]
 
-
                 if row != m - 1: # 防止下边界溢出
                     count += board[row + 1][col]
                     if col != n - 1:
                         count += board[row + 1][col + 1]
                     if col != 0:
                         count += board[row + 1][col - 1]
-
 
                 # col边界值
                 if col != 0: # 防止左边节溢出
@@ -173,14 +171,12 @@ class Solution:
                         if abs(board[row - 1][col - 1]) == 1:
                             count += 1
 
-
                 if row != m - 1: # 防止下边界溢出
                     count += board[row + 1][col]
                     if col != n - 1:
                         count += board[row + 1][col + 1]
                     if col != 0:
                         count += board[row + 1][col - 1]
-
 
                 # col边界值
                 if col != 0: # 防止左边节溢出

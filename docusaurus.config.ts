@@ -1,12 +1,12 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import type * as Preset from '@docusaurus/preset-classic';
-import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic'
+import type { Config } from '@docusaurus/types'
 
-import { themes as prismThemes } from 'prism-react-renderer';
-import rehypeKatex from 'rehype-katex';
-import remarkMath from 'remark-math';
+import { themes as prismThemes } from 'prism-react-renderer'
+import rehypeKatex from 'rehype-katex'
+import remarkMath from 'remark-math'
 
 const config: Config = {
   title: 'ZLA Algo',
@@ -82,7 +82,7 @@ const config: Config = {
           label: '文档',
         },
         {
-          href: 'https://www.zla.pub',
+          href: 'https://zla.pub',
           label: '博客',
           position: 'left',
         },
@@ -100,7 +100,10 @@ const config: Config = {
     footer: {
       // style: 'dark',
       // hyper link in copyright
-      copyright: `© 2024-${new Date().getFullYear()} ZL Asica. Built with Docusaurus.<br/>Licensed under <a href='https://creativecommons.org/licenses/by-sa/4.0/' title="License" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>`,
+      copyright: `
+      © 2024-${new Date().getFullYear()} ZL Asica. Built with Docusaurus.
+      <br/>
+      Licensed under <a href='https://creativecommons.org/licenses/by-sa/4.0/' title="License" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>`,
     },
     prism: {
       theme: prismThemes.github,
@@ -148,7 +151,7 @@ const config: Config = {
       // Optional: path for search page that enabled by default (`false` to disable it)
       searchPagePath: false,
 
-      //... other Algolia params
+      // ... other Algolia params
     },
   } satisfies Preset.ThemeConfig,
   stylesheets: [
@@ -165,6 +168,6 @@ const config: Config = {
       rel: 'preconnect',
     },
   ],
-};
+}
 
-export default config;
+export default config

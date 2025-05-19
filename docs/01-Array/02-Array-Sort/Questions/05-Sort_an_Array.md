@@ -100,7 +100,6 @@ class Solution:
 ```python
 from collections import defaultdict
 
-
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         nums_min, nums_max = min(nums), max(nums)

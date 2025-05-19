@@ -31,15 +31,15 @@ slug: /problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof
 **Example 1:**
 
 ```javascript
-Input: password = [15, 8, 7];
-Output: '1578';
+Input: password = [15, 8, 7]
+Output: '1578'
 ```
 
 **Example 2:**
 
 ```javascript
-Input: password = [0, 3, 30, 34, 5, 9];
-Output: '03033459';
+Input: password = [0, 3, 30, 34, 5, 9]
+Output: '03033459'
 ```
 
 **Constraints:**

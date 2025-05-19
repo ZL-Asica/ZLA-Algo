@@ -1,14 +1,16 @@
-import React from 'react';
-import Footer from '@theme-original/Footer';
-import type FooterType from '@theme/Footer';
-import type { WrapperProps } from '@docusaurus/types';
+import type { WrapperProps } from '@docusaurus/types'
+import type FooterType from '@theme/Footer'
+import Footer from '@theme-original/Footer'
+import React from 'react'
 
-type Properties = WrapperProps<typeof FooterType>;
+type Properties = WrapperProps<typeof FooterType>
 
-export default function FooterWrapper(properties: Properties): JSX.Element {
+export default function FooterWrapper(
+  properties: Properties,
+): React.ReactElement {
   return (
     <>
       <Footer {...properties} />
     </>
-  );
+  )
 }
